@@ -1,0 +1,17 @@
+<form action="" method="POST">
+    <div class="form-group">
+        <label for="">Scegli il Point</label>
+        <select name="point_id" id="point_id">
+            <option value="-1">seleziona</option>
+            @foreach($points as $point)
+            <option value=""></option>
+            @endforeach
+        </select>
+    </div>  
+    <div class="form-group">
+        <label for="">Servizio</label> 
+        <select name="service_id" id="service_id">
+            <option value="-1">seleziona</option>    
+        </select>   
+    </div>     
+</form>
