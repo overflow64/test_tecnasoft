@@ -33,7 +33,7 @@
             <td>
                 <form action="{{ route('services.destroy',$service->id) }}" method="POST">
    
-                    <a class="btn btn-primary" href="{{ route('services.show',$service->id) }}">Info</a>
+                 <a class="btn btn-primary" href="{{ route('services.edit',$service->id) }}">Mod</a>
     
                  
    
